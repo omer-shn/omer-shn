@@ -1,6 +1,6 @@
 package Classes;
 
-public class Mphone {
+public class Phone {
 
     String marka;
     String model;
@@ -9,7 +9,7 @@ public class Mphone {
     double camera;
 
 
-    public Mphone(String marka,String model,int memory, int ram, double camera) {
+    public Phone(String marka, String model, int memory, int ram, double camera) {
 
         this.marka=marka;
         this.model=model;

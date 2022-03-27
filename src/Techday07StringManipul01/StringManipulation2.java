@@ -1,4 +1,4 @@
-package Techday07;
+package Techday07StringManipul01;
 
 public class StringManipulation2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Techday07;
+package Techday07StringManipul01;
 
 import java.util.Scanner;
 
