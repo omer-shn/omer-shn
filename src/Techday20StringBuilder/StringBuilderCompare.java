@@ -1,20 +1,15 @@
-package Classes;
+package Techday20StringBuilder;
 
-import java.time.*;
-import java.time.format.DateTimeFormatter;
-import java.util.*;
-
-public  class azz {
+public class StringBuilderCompare {
     public static void main(String[] args) {
+        StringBuilder seb =new StringBuilder();
+        long tm1=System.nanoTime();
 
-     StringBuilder seb =new StringBuilder();
-     long tm1=System.nanoTime();
+        seb.append("kervan");
 
-     seb.append("kervan");
-
-     for(int i=0;i<1000;i++) {
-         seb.append(" ");
-     }
+        for(int i=0;i<1000;i++) {
+            seb.append(" ");
+        }
         long tm2=System.nanoTime();
 
 
@@ -34,6 +29,5 @@ public  class azz {
         System.out.println(difference2);
         System.out.println(ultimate);
     }
-
     }
 

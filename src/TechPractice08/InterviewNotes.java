@@ -1,4 +1,4 @@
-package Techpractice08;
+package TechPractice08;
 
 public class InterviewNotes {
 

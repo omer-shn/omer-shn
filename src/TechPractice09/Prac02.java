@@ -1,4 +1,4 @@
-package Techpractice09;
+package TechPractice09;
 
 import java.util.HashMap;
 import java.util.Map;
